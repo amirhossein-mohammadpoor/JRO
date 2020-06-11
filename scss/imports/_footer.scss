@@ -1,0 +1,146 @@
+footer {
+    background-color: white;
+    position: relative;
+
+    p {
+        text-align: center;
+    }
+
+    input {
+        width: 330px;
+        height: 50px;
+        border: 0;
+        outline: 0;
+        border-radius: 25px;
+        box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);
+    }
+
+    input::placeholder {
+        text-align: center;
+        color: #9e9e9e;
+    }
+
+    .email-button {
+        width: 160px;
+        height: 50px;
+        background: linear-gradient(to left, #e35325, #ff8a65);
+        border-radius: 25px;
+        border: 0;
+        outline: 0;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        position: absolute;
+        left: -60px;
+    }
+
+    .social {
+        button {
+            border: 0;
+            outline: 0;
+            border-radius: 50%;
+            width: 64px;
+            height: 64px;
+            line-height: 0;
+            font-size: 34px;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .twitter {
+            background-color: white;
+            color: #29b6f6;
+            margin-left: 31px;
+        }
+
+        .instagram {
+            background-color: white;
+            color: #ec407a;
+            margin-left: 31px;
+        }
+
+        .telegram {
+            background-color: white;
+            color: #29b6f6;
+        }
+    }
+
+    .links {
+        color: white;
+    }
+
+    .image {
+        width: 400px;
+        height: 100%;
+        position: absolute;
+        top: -5%;
+        z-index: 0; 
+        
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .contact {
+        background-image: url("../images/025_footer_Bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        .copyright {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+
+            img {
+                width: 72px;
+                height: 72px;
+                border-radius: 50%;
+            }
+            p {
+                span {
+                    color: #09ffc7;
+                }
+            }
+        }
+
+        ul {
+            list-style-type: circle;
+            font-size: 13px;
+            padding: 0;
+            padding-right: 16px;
+        }
+
+        .image1 {
+            width: 440px;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            right: 5%;
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .contact-info {
+            color: white;
+            display: flex;
+            .email {
+                i {
+                    font-size: 24px;
+                    margin-right: 10px;
+                }
+            }
+            .phone {
+                i {
+                    font-size: 24px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

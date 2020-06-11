@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+    main {
+        #carousel {
+            padding: 0;
+            .slide-content {
+                .description {
+                    position: static;
+                }
+            }
+        }
+
+        .wave-image2 {
+            height: 142px;
+        }
+
+        .flights {
+            padding: 0;
+            .icons {
+                width: 768px;
+            }
+        }
+
+        .download-app {
+            background-image: none;
+
+            .group-download-buttons {
+                position: static;
+            }
+
+            .send-number {
+                input {
+                    padding-left: 15px;
+                    width: 290px;
+                }
+
+                .download-button {
+                    position: static;
+                }
+            }
+        }
+
+        .ready {
+            .content {
+                position: relative;
+    
+                button {
+                    position: static;
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: #e1fff8;
+
+        .email-button {
+            position: static;
+        }
+
+        .social {
+            .links {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .twitter {
+                background-color: #29b6f6;
+                color: white;
+            }
+    
+            .instagram {
+                background-color: #ec407a;
+                color: white;
+            }
+    
+            .telegram {
+                background-color: #29b6f6;
+                color: white;
+            }
+        }
+    }
+}

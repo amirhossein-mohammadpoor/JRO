@@ -1,0 +1,47 @@
+$primaryColor: #007f62;
+$secondaryColor: #00a680;
+
+@import "font";
+
+body {
+  direction: rtl;
+  font-family: "Shabnam" !important;
+  text-align: right;
+}
+
+p {
+  font-family: "Shabnam-Light" !important;
+}
+
+h1,h2,h3,h4 {
+  font-family: "Shabnam-Bold" !important;
+}
+
+.overlayer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
+
+  img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+}
+
+@import "header";
+
+@import "main";
+
+@import "footer";
+
+@import "media";
+
+
+
+
