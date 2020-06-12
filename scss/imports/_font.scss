@@ -1,16 +1,14 @@
+@import "mixins";
+
 @font-face {
-    font-family: "Shabnam";
-    src: url("../fonts/Shabnam.ttf") format('truetype');
-    font-weight: normal;
+  @include font ("Shabnam", url("../fonts/Shabnam.ttf") format('truetype'))
 }
 
 @font-face {
-    font-family: "Shabnam-Light";
-    src: url("../fonts/Shabnam-Light.ttf") format('truetype');
-    font-weight: normal;
+  @include font ("Shabnam-Light", url("../fonts/Shabnam-Light.ttf") format('truetype'))
 }
 
 @font-face {
-    font-family: "Shabnam-Bold";
-    src: url("../fonts/Shabnam-Bold.ttf") format('truetype');
+
+  @include font ("Shabnam-Bold", url("../fonts/Shabnam-Bold.ttf") format('truetype'))
 }

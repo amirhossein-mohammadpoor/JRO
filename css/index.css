@@ -1,18 +1,19 @@
 @font-face {
   font-family: "Shabnam";
   src: url("../fonts/Shabnam.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: "normal";
 }
 
 @font-face {
   font-family: "Shabnam-Light";
   src: url("../fonts/Shabnam-Light.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: "normal";
 }
 
 @font-face {
   font-family: "Shabnam-Bold";
   src: url("../fonts/Shabnam-Bold.ttf") format("truetype");
+  font-weight: "normal";
 }
 
 body {
@@ -27,6 +28,10 @@ p {
 
 h1, h2, h3, h4 {
   font-family: "Shabnam-Bold" !important;
+}
+
+button {
+  cursor: pointer;
 }
 
 .overlayer {
@@ -155,7 +160,6 @@ main .carousel-indicaitors button {
   border: 0;
   border-radius: 50%;
   margin-right: 16px;
-  cursor: pointer;
 }
 
 main .carousel-indicaitors .active {
@@ -198,7 +202,6 @@ main .flights .icons button {
   border-radius: 50%;
   background-color: white;
   color: #007f62;
-  cursor: pointer;
 }
 
 main .flights .icons span {
@@ -249,14 +252,15 @@ main .download-app p {
 main .download-app button {
   width: 160px;
   height: 50px;
+  font-size: 14px;
   background: -webkit-gradient(linear, right top, left top, from(#00a680), to(#00f4bd));
   background: linear-gradient(to left, #00a680, #00f4bd);
-  border-radius: 25px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
   border: 0;
   outline: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
+  border-radius: 25px;
 }
 
 main .download-app img {
@@ -329,14 +333,15 @@ main .ready p {
 main .ready button {
   width: 160px;
   height: 50px;
+  font-size: 16px;
   background: -webkit-gradient(linear, right top, left top, from(#e35325), to(#ff8a65));
   background: linear-gradient(to left, #e35325, #ff8a65);
-  border-radius: 25px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
   border: 0;
   outline: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
+  border-radius: 25px;
 }
 
 main .ready .content {
@@ -464,14 +469,15 @@ footer input::placeholder {
 footer .email-button {
   width: 160px;
   height: 50px;
+  font-size: 16px;
   background: -webkit-gradient(linear, right top, left top, from(#e35325), to(#ff8a65));
   background: linear-gradient(to left, #e35325, #ff8a65);
-  border-radius: 25px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
   border: 0;
   outline: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
+  border-radius: 25px;
   position: absolute;
   left: -60px;
 }

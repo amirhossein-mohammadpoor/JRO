@@ -1,0 +1,25 @@
+@mixin font ($font-family, $src, $font-weight: "normal") {
+  font-family: $font-family;
+  src: $src;
+  font-weight: $font-weight;
+}
+
+@mixin button-style ($width,
+  $height,
+  $font-size,
+  $background,
+  $box-shadow,
+  $color,
+  $border-radius: 0,
+  $border: 0,
+  $outline: 0) {
+  width: $width;
+  height: $height;
+  font-size: $font-size;
+  background: $background;
+  box-shadow: $box-shadow;
+  color: $color;
+  border: $border;
+  outline: $outline;
+  border-radius: $border-radius
+}
